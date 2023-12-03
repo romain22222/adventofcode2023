@@ -11,7 +11,7 @@ for line in data:
 	match = re.search(r"\d\D*$", line)
 	last = int(match.group(0)[0])
 	sum += first * 10 + last
-print(sum)
+print("P1:", sum)
 
 # P2
 sum = 0
@@ -25,4 +25,4 @@ for line in data:
 				digs.append(str(d + 1))
 	sum += int(digs[0] + digs[-1])
 
-print(sum)
+print("P2:", sum)

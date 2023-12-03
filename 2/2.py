@@ -47,7 +47,7 @@ for g in games:
 	if game_number not in impossibles:
 		possibles.add(game_number)
 
-print(sum(possibles))
+print("P1:", sum(possibles))
 
 # P2
 
@@ -67,4 +67,4 @@ for g in games:
 				minG = max(minG, number)
 	s += minR * minB * minG
 
-print(s)
+print("P2:", s)
