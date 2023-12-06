@@ -18,7 +18,6 @@ def parser(data):
 
 
 records = parser(data)
-print(records)
 
 # P1
 # For a time T, you can hold a button for x seconds and then go x*(T-x) distance
